@@ -1,19 +1,5 @@
 #pylint: disable=all
-"""Basic tutorial for behave"""
-
 from behave import *
-""" 
-@given('we have behave installed')
-def step_impl(context):
-    pass
-
-@when('we implement a test')
-def step_impl(context):
-    assert True is not False
-
-@then('behave will test it for us!')
-def step_impl(context):
-    assert context.failed is False """
     
 @given('a <- tuple (4.3, -4.2, 3.1, 1.0)')
 def step_impl(context):
